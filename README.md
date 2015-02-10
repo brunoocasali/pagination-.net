@@ -6,7 +6,7 @@ This is a simple WebUserControl to give to you a pagination of your data.
 How to use:
 
 1° First copy the `web.config` content to your `web.config` file:
-```
+```xml
 <configuration>
   <system.web>
     <pages controlRenderingCompatibilityVersion="4.0">
@@ -22,7 +22,7 @@ How to use:
 3° Add this code to him `<uc:pagination ID="uc"  runat="server"/>`
 
 It maybe seems like this:
-```
+```asp
 <%@ Page Language="C#" AutoEventWireup="true" CodeFile="Something.aspx.cs" Inherits="Something" %>
 
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ It maybe seems like this:
 4° In the code behind you need to insert the code reference at your classes and methods.
 It maybe seems like this either:
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 using System.Linq;
